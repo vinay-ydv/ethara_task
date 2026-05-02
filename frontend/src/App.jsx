@@ -5,7 +5,7 @@ import Auth from './pages/Auth.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 
 // Exporting server URL as requested in your reference architecture
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://ethara-task-backed.onrender.com"
 
 const App = () => {
   // Since we use httpOnly cookies for the token, we only store user metadata in localStorage
